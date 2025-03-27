@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
-
 body {    
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -14,18 +12,14 @@ body {
     background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border: 2px solid #2596BE; /* Azul corporativo corregido */
+    border: 2px solid #0073e6;
+    /* Marco azul elegante */
     padding: 10px;
 }
 
 .header {
     text-align: center;
     padding: 20px;
-    background-color:#0aa849 ; /* Azul corporativo corregido */
-    color: #ffffff;
-    font-size: 22px;
-    font-weight: bold;
-    border-radius: 8px 8px 0 0;
 }
 
 #company-logo {
@@ -37,25 +31,24 @@ body {
 .content {
     padding: 20px;
     text-align: justify;
-    color: #333;
-    line-height: 1.6;
-    font-size: 16px;
+    color: #333; /* En vez de #666 para mejor contraste */
+    line-height: 1.5; /* En vez de 1.5 para más aire */
+    
 }
 
 h2 {
-    color: #222;
+    color: #222; /* En vez de #333 para más fuerza */
     text-align: center;
 }
 
 .highlight {
-    color: #2596BE; /* Azul corporativo corregido */
-    font-weight: bold;
+    color: #0073e6;
 }
 
 .brand {
     font-weight: bold;
     font-size: 18px;
-    color: #2596BE; /* Azul corporativo corregido */
+    color: #0073e6;
 }
 
 .bold {
@@ -68,38 +61,32 @@ h2 {
 }
 
 .button {
-    background-color: #0aa849; /* Verde corporativo */
+    background-color:#2710f2 ; /* Un azul más fuerte */
     color: #ffffff;
     padding: 12px 20px;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
     display: inline-block;
-    border: none;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    transition: background-color 0.3s ease;
-    font-size: 16px;
-}
+    border-color: #2710f2 ; /* Borde más oscuro */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Más profundidad */
+    /* Borde para resaltar */
+}   
 
-.button:hover {
-    background-color: #088f3a; /* Verde oscuro para hover */
-}
 
 .footer {
     text-align: center;
     padding: 20px;
     font-size: 12px;
-    color: #666;
-    background-color: #eeeeee;
-    border-radius: 0 0 8px 8px;
+    color: #888;
 }
 
 .email-link {
-    color: #2596BE; /* Azul corporativo corregido */
+    color: #0073e6;
     text-decoration: none;
     font-weight: bold;
 }
-
+/*      */
 .socials {
     text-align: center;
     padding: 15px;
