@@ -3,7 +3,7 @@ const logo = document.getElementById("company-logo");
 const whatsappLink = document.getElementById("whatsapp-link");
 
 // Cargar imagen desde Postimg
-logo.src = "logo-HEADER.gif";
+// logo.src = "logo-HEADER.gif";
 
 // Configurar enlace de WhatsApp
 whatsappLink.href =
