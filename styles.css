@@ -23,9 +23,13 @@ body {
 }
 
 #company-logo {
-    width: 100%;
-    max-height: 150px;
+    width: auto;
+    max-width: 200px; /* Ajusta el tamaño máximo según necesites */
+    height: auto;
+    max-height: 200px; /* Evita que sea demasiado alto */
     object-fit: contain;
+    display: block;
+    margin: 0 auto;
 }
 
 .content {
@@ -61,17 +65,23 @@ h2 {
 }
 
 .button {
-    background-color:#2710f2 ; /* Un azul más fuerte */
-    color: #ffffff;
+    background-color: #0aa849; /* Verde corporativo */
+    color: #ffffff; /* Texto en blanco */
     padding: 12px 20px;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
     display: inline-block;
-    border-color: #2710f2 ; /* Borde más oscuro */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Más profundidad */
-    /* Borde para resaltar */
-}   
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #088f3a; /* Verde más oscuro al pasar el mouse */
+}
+
 
 
 .footer {
@@ -113,4 +123,23 @@ h2 {
 
 .socials img:hover {
     transform: scale(1.1);
+}
+.whatsapp-button {
+    display: inline-block;
+    background-color: green;
+    color: blue !important;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    user-select: all; /* 🔹 Ahora se podrá seleccionar el texto del botón */
+}
+
+.whatsapp-button:hover {
+    background-color: #088f3a;
 }
