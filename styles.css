@@ -125,19 +125,16 @@ h2 {
     transform: scale(1.1);
 }
 .whatsapp-button {
-    display: inline-block;
-    background-color: green;
-    color: blue !important;
-    padding: 12px 20px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    font-size: 16px;
-    text-align: center;
-    border: none;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    transition: background-color 0.3s ease;
-    user-select: all; /* 🔹 Ahora se podrá seleccionar el texto del botón */
+    display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            text-align: center;
+            background: #0eb856;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
 }
 
 .whatsapp-button:hover {
