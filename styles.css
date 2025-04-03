@@ -125,16 +125,16 @@ h2 {
     transform: scale(1.1);
 }
 .whatsapp-button {
-    display: block;
-            width: 200px;
-            margin: 20px auto;
-            padding: 10px;
-            text-align: center;
-            background: #0eb856;
-            color: #ffffff;
-            text-decoration: none;
-            font-size: 18px;
-            border-radius: 5px;
+    display: inline-block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    background:greenyellow;
+    color: #0073e6;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
 }
 
 .whatsapp-button:hover {
